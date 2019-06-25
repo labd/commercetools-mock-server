@@ -1,6 +1,6 @@
 FROM python:3.7-alpine3.8
 
-RUN pip install commercetools==3.8.0
+RUN pip install commercetools==3.8.1
 
 RUN adduser -D -u 1000 commercetools
 

@@ -1,6 +1,6 @@
-FROM python:3.7-alpine3.8
+FROM python:3.8-alpine3.8
 
-RUN pip install commercetools==8.3.0
+RUN pip install https://github.com/labd/commercetools-python-sdk/archive/master.zip
 
 RUN adduser -D -u 1000 commercetools
 
@@ -8,4 +8,3 @@ RUN adduser -D -u 1000 commercetools
 USER commercetools
 EXPOSE 8989
 CMD ["python", "-mcommercetools.testing.server"]
-

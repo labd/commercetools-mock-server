@@ -1,4 +1,4 @@
-FROM python:3.8-alpine3.8
+FROM python:3.8-alpine
 
 RUN pip install https://github.com/labd/commercetools-python-sdk/archive/master.zip
 

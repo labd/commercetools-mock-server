@@ -7,4 +7,4 @@ the commercetools-python-sdk testing features.
 
 # Releasing
 
-- The Dockerfile uses the `master` branch from the commercetools-python-sdk. To release a new docker image you need to simply retrigger the workflow on https://github.com/labd/commercetools-mock-server/actions?query=workflow%3Aci
+- The Dockerfile uses the `main` branch from the commercetools-python-sdk. To release a new docker image you need to simply retrigger the workflow on https://github.com/labd/commercetools-mock-server/actions?query=workflow%3Aci

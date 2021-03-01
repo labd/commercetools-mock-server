@@ -3,7 +3,12 @@
 Docker image which offers mocks for the commercetools api. This is based on
 the commercetools-python-sdk testing features.
 
-```docker run -it -p 8989:8989 labdigital/commercetools-mock-server:latest```
+If you want to use the latest version make sure you have no cached container and run:
+
+```sh
+docker pull labdigital/commercetools-mock-server:latest
+docker run -it -p 8989:8989 labdigital/commercetools-mock-server:latest
+```
 
 # Releasing
 

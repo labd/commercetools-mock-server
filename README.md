@@ -1,7 +1,7 @@
 # commercetools-mock-server
 
 Docker image which offers mocks for the commercetools api. This is based on
-the commercetools-python-sdk testing features.
+the https://github.com/labd/commercetools-node-mock project.
 
 If you want to use the latest version make sure you have no cached container and run:
 

@@ -1,5 +1,9 @@
 # commercetools-mock-server
 
+
+> [!WARNING]
+> This repository is archived, the image is built and published via https://github.com/labd/commercetools-node-mock.  
+
 Docker image which offers mocks for the commercetools api. This is based on
 the https://github.com/labd/commercetools-node-mock project.
 
